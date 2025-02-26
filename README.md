@@ -1,4 +1,4 @@
-# Multiple Disease Prediction System Documentation
+# Multiple Disease Prediction System
 
 ## Table of Contents
 1. Introduction
