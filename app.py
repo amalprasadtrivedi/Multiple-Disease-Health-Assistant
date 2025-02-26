@@ -8,13 +8,14 @@ st.set_page_config(page_title="Health Assistant",
                    layout="wide",
                    page_icon="🧑‍⚕️")
 
-# loading the saved models
+# Loading the saved models
 
-diabetes_model = pickle.load(open('/saved_models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('saved_models/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('/saved_models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('saved_models/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('/saved_models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('saved_models/parkinsons_model.sav', 'rb'))
+
 
 # Sidebar
 st.sidebar.title("S.O.P.H.I.E. Health Assistant")
