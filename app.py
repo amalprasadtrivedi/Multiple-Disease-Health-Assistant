@@ -63,6 +63,7 @@ elif selected == 'Heart Disease Prediction':
         Sex = st.text_input('Sex')
         ChestPain = st.text_input('Chest Pain types')
         RestingBP = st.text_input('Resting Blood Pressure')
+        Thal = st.text_input('Thal: 0 = normal; 1 = fixed defect; 2 = reversible defect')
     with col2:
         Cholesterol = st.text_input('Serum Cholesterol in mg/dl')
         FastingBS = st.text_input('Fasting Blood Sugar > 120 mg/dl')
@@ -73,7 +74,6 @@ elif selected == 'Heart Disease Prediction':
         Oldpeak = st.text_input('ST depression induced by exercise')
         Slope = st.text_input('Slope of the peak exercise ST segment')
         MajorVessels = st.text_input('Major vessels colored by fluoroscopy')
-        Thal = st.text_input('Thal: 0 = normal; 1 = fixed defect; 2 = reversible defect')
     heart_diagnosis = ''
     if st.button('Heart Disease Test Result'):
         user_input = [float(x) if x.strip() else 0.0 for x in [Age, Sex, ChestPain, RestingBP, Cholesterol, FastingBS, RestECG, MaxHR, ExerciseAngina, Oldpeak, Slope, MajorVessels, Thal]]
