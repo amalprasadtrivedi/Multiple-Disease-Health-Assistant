@@ -91,6 +91,7 @@ elif selected == "Parkinson's Prediction":
         MDVP_Flo = st.text_input('MDVP:Flo(Hz)')
         Jitter_Percent = st.text_input('MDVP:Jitter(%)')
         Jitter_Abs = st.text_input('MDVP:Jitter(Abs)')
+        HNR = st.text_input('HNR')
     with col2:
         MDVP_RAP = st.text_input('MDVP:RAP')
         MDVP_PPQ = st.text_input('MDVP:PPQ')
@@ -103,7 +104,6 @@ elif selected == "Parkinson's Prediction":
         MDVP_APQ = st.text_input('MDVP:APQ')
         Shimmer_DDA = st.text_input('Shimmer:DDA')
         NHR = st.text_input('NHR')
-        HNR = st.text_input('HNR')
     parkinsons_diagnosis = ''
     if st.button("Parkinson's Test Result"):
         user_input = [float(x) if x.strip() else 0.0 for x in [MDVP_Fo, MDVP_Fhi, MDVP_Flo, Jitter_Percent, Jitter_Abs, MDVP_RAP, MDVP_PPQ, Jitter_DDP, MDVP_Shimmer, MDVP_Shimmer_dB, Shimmer_APQ3, Shimmer_APQ5, MDVP_APQ, Shimmer_DDA, NHR, HNR]]
