@@ -24,7 +24,7 @@ st.sidebar.markdown("---")
 selected = st.sidebar.radio("Multiple Disease Prediction System", [
     'Diabetes Prediction',
     'Heart Disease Prediction',
-    'Parkinsons Prediction'
+    'Parkinson\'s Prediction'
 ])
 
 # Diabetes Prediction Page
