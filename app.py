@@ -290,7 +290,7 @@ elif selected == "Parkinson's Prediction":
         parkinsons_diagnosis = "🔴 The person has Parkinson's disease." if parkinsons_prediction[0] == 1 else "🟢 The person does not have Parkinson's disease."
         st.success(parkinsons_diagnosis)
 
-    st.markdown("---")
+st.markdown("---")
 
 st.markdown("""
 ### ⚠️ Disclaimer
