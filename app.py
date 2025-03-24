@@ -292,10 +292,10 @@ elif selected == "Parkinson's Prediction":
 
     st.markdown("---")
 
-    st.markdown("""
-    ### ⚠️ Disclaimer
-    This prediction model is not a substitute for professional medical advice. Please consult a healthcare provider for an accurate diagnosis and treatment.
-    """)
+st.markdown("""
+### ⚠️ Disclaimer
+This prediction model is not a substitute for professional medical advice. Please consult a healthcare provider for an accurate diagnosis and treatment.
+""")
 
 # Footer with creator info
 st.sidebar.markdown(
