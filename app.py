@@ -300,9 +300,23 @@ elif selected == "Parkinson's Prediction":
 # Footer with creator info
 st.sidebar.markdown(
     """
-    <a href="https://amalprasadtrivediportfolio.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Created%20by-Amal%20Prasad%20Trivedi-blue">
-    </a>
+    <style>
+        .sidebar-button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .sidebar-button img {
+            width: 100%;
+            max-width: 250px; /* Adjust max-width as needed */
+        }
+    </style>
+    <div class="sidebar-button-container">
+        <a href="https://amalprasadtrivediportfolio.vercel.app/" target="_blank" class="sidebar-button">
+            <img src="https://img.shields.io/badge/Created%20by-Amal%20Prasad%20Trivedi-blue">
+        </a>
+    </div>
     """,
     unsafe_allow_html=True
 )
