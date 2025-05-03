@@ -133,5 +133,5 @@ This project successfully developed a **Multiple Disease Prediction System** usi
 
 ---
 
-**Project Repository:** [GitHub Link](https://github.com/your-repo/multiple-disease-prediction)
+**Project Repository:** [GitHub Link](https://github.com/amalprasadtrivedi/Multiple-Disease-Health-Assistant)
 
