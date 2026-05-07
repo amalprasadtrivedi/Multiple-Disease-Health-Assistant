@@ -314,7 +314,7 @@ st.sidebar.markdown(
     </style>
     <div class="sidebar-button-container">
         <a href="https://amalprasadtrivediportfolio.vercel.app/" target="_blank" class="sidebar-button">
-            <img src="https://img.shields.io/badge/Created%20by-Uttkarsh%20Pal-blue">
+            <img src="https://img.shields.io/badge/Created%20by-AMAL%20PRASAD%20TRIVEDI-blue">
         </a>
     </div>
     """,
